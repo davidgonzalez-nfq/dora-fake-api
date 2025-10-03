@@ -15,7 +15,7 @@ ITEMS = [{"id": 1, "name": "foo"}, {"id": 2, "name": "bar"}]
 
 @app.get("/health")
 def health():
-    return {"ok": True}
+    return {"ok": True, "ts": "2025-10-03T11:17:54.536463+00:00"}
 
 @app.get("/items")
 def get_items():
